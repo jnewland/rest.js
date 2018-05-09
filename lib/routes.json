@@ -1013,7 +1013,7 @@
             "status",
             "completed"
           ],
-          "required": true,
+          "required": false,
           "type": "string"
         },
         "details_url": {
@@ -1344,7 +1344,7 @@
             "status",
             "completed"
           ],
-          "required": true,
+          "required": false,
           "type": "string"
         },
         "details_url": {

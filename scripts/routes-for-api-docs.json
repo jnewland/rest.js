@@ -1902,7 +1902,7 @@
           "name": "conclusion",
           "type": "string",
           "description": "The final conclusion of the check. Can be one of `success`, `failure`, `neutral`, `cancelled`, `timed_out`, or `action_required`. When the conclusion is `action_required`, additional details should be provided on the site specified by `details_url`. Required if you provide a `status` of `completed`.",
-          "required": true,
+          "required": false,
           "enum": [
             "success",
             "failure",
@@ -2494,7 +2494,7 @@
           "name": "conclusion",
           "type": "string",
           "description": "The final conclusion of the check. Can be one of `success`, `failure`, `neutral`, `cancelled`, `timed_out`, or `action_required`. When the conclusion is `action_required`, additional details should be provided on the site specified by `details_url`. Required if you provide a `status` of `completed`.",
-          "required": true,
+          "required": false,
           "enum": [
             "success",
             "failure",
