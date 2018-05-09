@@ -998,7 +998,7 @@
       "method": "POST",
       "params": {
         "completed_at": {
-          "required": true,
+          "required": false,
           "type": "string"
         },
         "conclusion": {
@@ -1329,7 +1329,7 @@
           "type": "string"
         },
         "completed_at": {
-          "required": true,
+          "required": false,
           "type": "string"
         },
         "conclusion": {

@@ -1920,7 +1920,7 @@
           "name": "completed_at",
           "type": "string",
           "description": "The time the check completed in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ`. Required if you provide `conclusion`.",
-          "required": true,
+          "required": false,
           "location": "body"
         },
         {
@@ -2512,7 +2512,7 @@
           "name": "completed_at",
           "type": "string",
           "description": "The time the check completed in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ`. Required if you provide `conclusion`.",
-          "required": true,
+          "required": false,
           "location": "body"
         },
         {
