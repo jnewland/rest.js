@@ -1078,14 +1078,14 @@
         "output.images": {
           "type": "object[]"
         },
-        "output.images.alt": {
+        "output.images[].alt": {
           "required": true,
           "type": "string"
         },
-        "output.images.caption": {
+        "output.images[].caption": {
           "type": "string"
         },
-        "output.images.image_url": {
+        "output.images[].image_url": {
           "required": true,
           "type": "string"
         },
@@ -1401,14 +1401,14 @@
         "output.images": {
           "type": "object[]"
         },
-        "output.images.alt": {
+        "output.images[].alt": {
           "required": true,
           "type": "string"
         },
-        "output.images.caption": {
+        "output.images[].caption": {
           "type": "string"
         },
-        "output.images.image_url": {
+        "output.images[].image_url": {
           "required": true,
           "type": "string"
         },

@@ -2027,21 +2027,21 @@
           "location": "body"
         },
         {
-          "name": "output.images.alt",
+          "name": "output.images[].alt",
           "type": "string",
           "description": "The alternative text for the image.",
           "required": true,
           "location": "body"
         },
         {
-          "name": "output.images.image_url",
+          "name": "output.images[].image_url",
           "type": "string",
           "description": "The full URL of the image.",
           "required": true,
           "location": "body"
         },
         {
-          "name": "output.images.caption",
+          "name": "output.images[].caption",
           "type": "string",
           "description": "A short image description.",
           "required": false,
@@ -2619,21 +2619,21 @@
           "location": "body"
         },
         {
-          "name": "output.images.alt",
+          "name": "output.images[].alt",
           "type": "string",
           "description": "The alternative text for the image.",
           "required": true,
           "location": "body"
         },
         {
-          "name": "output.images.image_url",
+          "name": "output.images[].image_url",
           "type": "string",
           "description": "The full URL of the image.",
           "required": true,
           "location": "body"
         },
         {
-          "name": "output.images.caption",
+          "name": "output.images[].caption",
           "type": "string",
           "description": "A short image description.",
           "required": false,
